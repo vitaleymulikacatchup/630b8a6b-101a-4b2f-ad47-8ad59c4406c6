@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -9,12 +9,12 @@ import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Code, Code2, DollarSign, Github, Globe, HeadphonesIcon, Linkedin, Sparkles, Star, TrendingUp, Trophy, Twitter, Users, Zap } from "lucide-react";
+import { Code, Code2, DollarSign, Github, Globe, HeadphonesIcon, Linkedin, Sparkles, Star, TrendingUp, Trophy, Twitter, Users, Zap, Clock } from "lucide-react";
 
 export default function Home() {
   return (
     <ThemeProvider
-      defaultButtonVariant="slide-background"
+      defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
       contentWidth="small"
@@ -23,7 +23,7 @@ export default function Home() {
       cardStyle="glass-elevated"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="radial-glow"
-      showBlurBottom={true}
+      showBlurBottom="true"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
@@ -223,7 +223,7 @@ export default function Home() {
             },
             {
               id: "3",
-              icon: Code,
+              icon: Clock,
               title: "Years Experience",
               value: "8+"
             },
