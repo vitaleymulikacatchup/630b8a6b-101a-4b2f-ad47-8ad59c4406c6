@@ -76,16 +76,16 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "DevCraft - Professional Web Development Services",
-  description: "Transform your ideas into powerful web experiences with custom development, modern design, and scalable solutions. Expert web developers delivering results.",
+  title: 'DevCraft',
+  description: 'Heyyy',
   keywords: "web development, custom websites, responsive design, web applications, e-commerce development",
   metadataBase: new URL('https://devcraft.io'),
   alternates: {
     canonical: 'https://devcraft.io'
   },
   openGraph: {
-    title: "DevCraft - Professional Web Development Services",
-    description: "Transform your ideas into powerful web experiences with custom development, modern design, and scalable solutions.",
+    title: 'DevCraft',
+    description: 'Heyyy',
     siteName: "DevCraft",
     type: "website",
     images: [{
@@ -95,8 +95,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DevCraft - Professional Web Development Services",
-    description: "Transform your ideas into powerful web experiences with custom development, modern design, and scalable solutions.",
+    title: 'DevCraft',
+    description: 'Heyyy',
     images: ["https://images.pexels.com/photos/4974922/pexels-photo-4974922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"]
   },
   robots: {
