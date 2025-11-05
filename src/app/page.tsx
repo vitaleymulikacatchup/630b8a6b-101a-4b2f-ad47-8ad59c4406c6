@@ -23,7 +23,7 @@ export default function Home() {
       cardStyle="glass-elevated"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="radial-glow"
-      showBlurBottom="true"
+      showBlurBottom={true}
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
